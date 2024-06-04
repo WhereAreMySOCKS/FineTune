@@ -7,8 +7,8 @@ import torch
 
 
 def merge_lora_to_base_model():
-    model_name_or_path = '/home/guoshipeng/TrainLLMs/Firefly-master/output/Llama3-8B-Chinese-Chat-lora/checkpoint-1200'
-    adapter_name_or_path = '/home/guoshipeng/TrainLLMs/Firefly-master/output/Llama3-8B-Chinese-Chat-lora/checkpoint-1200'
+    model_name_or_path = '/home/guoshipeng/TrainLLMs/Firefly-master/output/Llama3-8B-Chinese-Chat-lora/checkpoint-2300'
+    adapter_name_or_path = '/home/guoshipeng/TrainLLMs/Firefly-master/output/Llama3-8B-Chinese-Chat-lora/checkpoint-2300'
     save_path = 'checkpoint/llama3-8B-Chinese-chat-sft-lora-merge'
 
     config = AutoConfig.from_pretrained(model_name_or_path)

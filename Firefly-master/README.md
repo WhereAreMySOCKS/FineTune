@@ -37,4 +37,5 @@ Firefly-master项目支持三种训练模式，如在`train.py`文件中所示�
 
 1. 配置数据集，如data目录下示例文件
 2. 运行train.py 微调模型
-3. 运行script/chat/chat.py进行对话，支持接口访问
+3. 运行merge_lora.py 合并模型
+4. 运行script/chat/chat.py进行对话，支持接口访问

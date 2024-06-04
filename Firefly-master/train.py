@@ -439,5 +439,5 @@ def main():
 
 if __name__ == "__main__":
     # export HF_ENDPOINT=https://hf-mirror.com
-    # huggingface-cli download --resume-download stabilityai/stable-diffusion-2-1 --local-dir /home/guoshipeng/TrainLLMs/SD/models/stable-diffusion-2-1
+    # huggingface-cli download --resume-download stabilityai/sdxl-turbo --local-dir /home/guoshipeng/TrainLLMs/SD/models/sdxl-turbo
     main()
