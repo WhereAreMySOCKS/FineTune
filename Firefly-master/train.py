@@ -1,7 +1,7 @@
 import argparse
 from loguru import logger
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 from os.path import join
 import torch
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
@@ -439,5 +439,5 @@ def main():
 
 if __name__ == "__main__":
     # export HF_ENDPOINT=https://hf-mirror.com
-    # huggingface-cli download --resume-download shenzhi-wang/Llama3-8B-Chinese-Chat --local-dir /home/guoshipeng/TrainLLMs/Firefly-master/models/Llama3-8B-Chinese-Chat
+    # huggingface-cli download --resume-download stabilityai/stable-diffusion-2-1 --local-dir /home/guoshipeng/TrainLLMs/SD/models/stable-diffusion-2-1
     main()
